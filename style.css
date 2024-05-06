@@ -1,0 +1,105 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.container-nav {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav .logo {
+    width: 30%;
+    margin-left: 5%;
+}
+
+nav .social {
+    width: 8%;
+    margin-left: 5px;
+}
+
+.socialIcons {
+    margin-left: 60%;
+    margin-right: 5%;
+}
+
+.heading {
+    text-align: center;
+    color: #323639;
+}
+
+.google {
+    color: #4285F4;
+}
+
+.cloud {
+    color: #F4B400;
+}
+
+.tier {
+    color: #EA4335;
+}
+
+.program {
+    color: #0F9D58;
+}
+
+#data-table-container {
+    overflow-x: auto;
+    margin: 0 auto;
+    border-radius: 50px;
+    padding: 70px 0;
+    border-bottom: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#data-table {
+    max-width: 80%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    margin: auto;
+    border-radius: 10px;
+}
+
+thead {
+    background-color: #4285F4;
+    color: white;
+}
+
+#data-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#data-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.scrollable-table {
+    max-height: 70em;
+    overflow-y: auto;
+}
+
+#searchInput {
+    width: 200px;
+    margin: 15px auto;
+    margin-left: 40%;
+    padding: 5px 15px;
+    border-radius: 15px;
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+}
